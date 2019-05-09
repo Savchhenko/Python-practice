@@ -12,7 +12,7 @@ elif number_of_steps < 1:
     number_of_steps = int(input())
 
 while step < number_of_steps:
-        piramide.append(symbol[0])
-        print(symbol.rjust(number_of_steps))
-        step = step + 1
-        symbol = symbol + '#'
+    piramide.append(symbol[0])
+    print(symbol.rjust(number_of_steps))
+    step = step + 1
+    symbol = symbol + '#'
